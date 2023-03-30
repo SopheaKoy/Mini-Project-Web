@@ -22,3 +22,36 @@ input{
     font-family: 'Averia Serif Libre', cursive;
     font-family: 'Roboto', sans-serif;
 }
+.button-img{
+    position:absolute; 
+    left: 120px;
+    top: 610px;
+   background-image: url(../assets/hero-bg-bottom.png);
+   background-position: center;
+ 
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+    .bg-img{
+        display: none;
+    }
+    .button-img{
+        position:absolute; 
+        left: 10px;
+        top: 615px;
+       background-image: url(../assets/hero-bg-bottom.png);
+       background-position: center;
+     
+        width: 200px;
+        height: 100px;
+    }
+
+
+  }
