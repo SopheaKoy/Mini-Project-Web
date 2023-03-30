@@ -1,0 +1,24 @@
+.signup-container{
+    width: 1440px;
+    height: 100vh;
+   
+}
+.bg-img{
+    background-image: url(../assets/Nothing-Familiar-10.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 900px;
+    
+}
+.form-list{
+    width: 570px;
+    height: 100vh;
+}
+input{
+    width : 319.33px !important;
+    height: 45px;
+}
+*{
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Roboto', sans-serif;
+}
