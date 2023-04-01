@@ -211,3 +211,7 @@ z-index-custom-front {
     }
 
 }
+* {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
