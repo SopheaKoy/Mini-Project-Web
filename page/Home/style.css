@@ -137,7 +137,9 @@ hr {
         background-color: #33313B !important;
         width: 500px !important;
     }
-   
+    .ms-mt-5{
+        margin-left: 11rem!important;
+    }
 }
 
 
