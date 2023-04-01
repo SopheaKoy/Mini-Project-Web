@@ -10,13 +10,18 @@
     width: 900px;
     
 }
+.btn-info{
+    width:49%;
+    background-color: #F9AB30 !important;
+    border: none !important;
+}
 .form-list{
     width: 570px;
     height: 100vh;
 }
 input{
     width : 319.33px !important;
-    height: 45px;
+    height: 40px;
 }
 *{
     font-family: 'Averia Serif Libre', cursive;
@@ -34,6 +39,10 @@ input{
 }
 input::placeholder{
  opacity: 0.5 !important;
+}
+.btn-warning{
+    width: 100%;
+    background-color: #F9AB30 !important;
 }
 
 

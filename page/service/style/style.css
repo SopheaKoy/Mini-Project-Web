@@ -2,6 +2,14 @@
     width: 50%;
     height: 120%;
 }
+.small{
+    font-size: 12px !important;
+    opacity: 0.8;
+}
+#footer-logo{
+    width: 50%;
+    height: 120%;;
+}
 
 footer {
     background-color: #33313B !important;
@@ -11,7 +19,9 @@ footer {
 
 #nav {
     background-color: #33313B !important;
+  
 }
+
 #nav navbar-toggler{
     background: #ffffff !important;
 }
