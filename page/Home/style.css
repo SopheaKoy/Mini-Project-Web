@@ -137,6 +137,7 @@ hr {
         background-color: #33313B !important;
         width: 500px !important;
     }
+   
 }
 
 
@@ -168,4 +169,31 @@ hr {
 
 .picture {
     height: 217px !important;
+}
+@media(max-width: 768px) {
+
+    body{
+        width: 768px!important;
+    }
+    .card1 {
+        width: auto;
+        height: auto;
+    }
+    
+    .card2 {
+        width: auto;
+        height: auto;
+    }
+    
+    .card3 {
+        height: auto;
+    }
+    #fb{
+        box-sizing: border-box;
+    
+        
+    }
+    .ms-md-5{
+        margin-left: 11rem!important;
+    }
 }

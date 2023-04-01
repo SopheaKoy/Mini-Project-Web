@@ -1,3 +1,4 @@
+
 .img {
     width: 50%;
     height: 120%;
@@ -144,14 +145,16 @@ li {
 
     .banner {
         margin-top: 0 !important;
+        justify-content: space-between !important;
 
     }
 
     #banner-logo {
-        width: 220px;
-        height: 250px;
-        margin-top: 20px;
-        margin-left: 50px;
+      width: auto;
+      height: 30rem !important;
+    
+        /* margin-top: 20px;
+        margin-left: 50px; */
 
     }
 
@@ -159,12 +162,14 @@ li {
         font-family: 'Averia Serif Libre', cursive;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
-        font-size: 20px;
-        line-height: 30px;
-        width: 174px;
+        font-size: 30px;
+        line-height: 40px;
+        
 
     }
-
+    .service-option {
+        margin: 0 !important;
+    }
     .circle {
         background-color: #F9AB30;
         width: 40px;
@@ -186,12 +191,12 @@ li {
     }
 
     .title>p {
-        font-size: 12px;
+        font-size: 14px;
 
     }
 
     .title>h5 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .btn-book {
@@ -199,10 +204,10 @@ li {
         background-color: #F9AB30;
         border: none;
         padding: 10px;
-        width: 75px;
+        width: auto;
         border-radius: 10px;
         color: white;
-        font-size: 12px;
+        font-size: 14px;
         font-family: 'Averia Serif Libre', cursive;
         font-family: 'Roboto', sans-serif;
         /* font-weight: bold; */
@@ -234,6 +239,11 @@ li {
     position: relative;
     bottom: -20px;
 }
+#partner-box{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 
 }
 
@@ -250,8 +260,8 @@ li {
         padding: 0;
     }
     #banner-logo {
-        width: 220px;
-        height: 250px;
+        width: 220px !important;
+        height: 250px !important;
         position: absolute;
         top: 5px;
         left: 0 !important;
@@ -332,6 +342,20 @@ li {
         background-color: #33313B !important;
         width: 500px !important;
     
+    }
+    .btn-book {
+
+        background-color: #F9AB30;
+        border: none;
+        padding: 10px;
+        width: auto;
+        border-radius: 10px;
+        color: white;
+        font-size: 14px;
+        font-family: 'Averia Serif Libre', cursive;
+        font-family: 'Roboto', sans-serif;
+        /* font-weight: bold; */
+        margin-top: 0px !important;
     }
    
   }
