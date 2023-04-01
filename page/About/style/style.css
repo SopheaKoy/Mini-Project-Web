@@ -3,6 +3,7 @@
     height: 40%;
 }
 
+
 .background {
     background-color: #33313B !important;
     padding: 3px;
@@ -58,7 +59,7 @@
 
 footer {
     background-color: #33313B !important;
-    height: 340px;
+   
 
 }
 
@@ -84,3 +85,19 @@ hr {
         width: 100%;
     }
 }
+@media only screen and (max-width: 480px) {
+ 
+    hr {
+        border: 1px solid #ffffff !important;
+        width: 90%;
+    
+    }
+    
+    /* footer style for mobile  */
+    footer {
+        background-color: #33313B !important;
+        width: 500px !important;
+    
+    }
+   
+  }
