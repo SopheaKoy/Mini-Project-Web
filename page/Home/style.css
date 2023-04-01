@@ -169,3 +169,12 @@ hr {
 .picture {
     height: 217px !important;
 }
+
+.style-text {
+    font-weight: 590 !important;
+}
+
+.fw {
+    font-weight: 590;
+    color: rgb(0, 0, 0);
+}
