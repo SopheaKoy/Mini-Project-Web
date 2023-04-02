@@ -102,6 +102,7 @@ body {
     border-radius: 10px;
     height: 272px;
     width: 364px;
+
     margin: 0 10px 0 0;
 }
 
@@ -139,6 +140,21 @@ hr {
     }
     .ms-mt-5{
         margin-left: 11rem!important;
+    }
+    .card-fb {
+        background-color: #ffffff;
+        border-radius: 10px;
+        height: 272px;
+        width: 35rem!important;
+        margin: 0 !important;
+       position: relative;
+       left: -15%;
+    
+     
+    }
+    #tourist-fb{
+        /* margin-left: 9rem!important; */
+
     }
 }
 
@@ -195,8 +211,15 @@ hr {
     
         
     }
+    .card-fb{
+     margin-top: 1.5rem !important;
+    }
     .ms-md-5{
         margin-left: 11rem!important;
+    }
+    #tourist-fb{
+        margin-left: 9rem!important;
+
     }
 
 .style-text {
